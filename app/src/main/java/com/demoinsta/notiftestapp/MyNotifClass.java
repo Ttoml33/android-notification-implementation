@@ -4,7 +4,7 @@ import android.app.Application;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.os.Build;
-
+/**Remember to add .MyNotifClass in the manifest  eg<application android:name=".MyNotifClass" /> **/
 public class MyNotifClass extends Application {
     public static final String CHANNEL_1_ID = "channel1";
     public static final String CHANNEL_2_ID = "channel2";
